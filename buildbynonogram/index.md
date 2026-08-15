@@ -9,62 +9,101 @@ questions go to **privacy@otfdp.com**.
 
 ## What we collect
 
-**Nothing leaves your device.** Build by Nonogram has no accounts, no analytics
-and no advertising, so there is currently no server holding anything about you.
+**We have no accounts and no servers.** Build by Nonogram stores your game on
+your device. There is no login, no profile, and nothing of yours held anywhere we
+control.
 
-Everything the game remembers is stored locally on your device:
+Everything the game remembers is stored locally:
 
 - **Game state** — puzzles solved and in progress, energy balance and refill
   time, models built and painted, packs owned, lifetime progression
 - **Settings** — sound, haptics, reduced motion, and whether you have completed
   the tutorial
 
+**Advertising.** The game is free and shows ads, which is how it is paid for.
+Our ad partner is **Google AdMob**, and AdMob may read your device's advertising
+identifier (IDFA on iOS) to deliver and measure ads. On iOS we are required to
+ask your permission first, via the App Tracking Transparency prompt. **You can
+decline; ads will still be shown, but will not be personalized, and the game
+plays exactly the same either way.**
+
+Ads are not enabled until you have finished the tutorial, so nothing is
+requested during your first minutes with the game.
+
 **Purchases.** Packs are sold through the Apple App Store, which handles payment
 entirely. We never see your payment details. The app receives only whether a
 purchase succeeded, in order to unlock what you bought.
 
 **We do not collect** names, email addresses, postal addresses, phone numbers,
-contacts, photos, microphone or camera access, precise location, or advertising
-identifiers.
+contacts, photos, microphone or camera access, or precise location.
 
 **We do not use cookies.**
 
 ## How we use what we collect
 
 Local game state is used only to run the game — to show your progress, restore
-an unfinished puzzle, and unlock the packs you own. None of it is transmitted.
+an unfinished puzzle, and unlock the packs you own. None of it is transmitted to
+us.
 
-We do not sell personal data. We do not share data with third parties.
+The advertising identifier is used only by our ad partner, to select and measure
+ads. We do not receive it, and we do not combine it with anything.
+
+We do not sell personal data.
+
+## Your choices about ads
+
+- **iOS** — decline the App Tracking Transparency prompt, or change it later in
+  **iOS Settings → Privacy & Security → Tracking**. Ads become non-personalized.
+- **EEA, UK and Switzerland** — we present Google's UMP consent form before ads
+  begin. You may withdraw or change consent at any time via **Settings → Privacy
+  options** inside the game.
+
+Turning off personalization does not remove ads, and does not restrict any part
+of the game.
 
 ## Third parties
 
+- **Google AdMob** — advertising —
+  [Privacy Policy](https://policies.google.com/privacy)
 - **Apple App Store** — distribution and purchases —
   [Privacy Policy](https://www.apple.com/legal/privacy/)
 
-That is the complete list. Purchases are the only point at which any third party
-is involved.
+That is the complete list.
 
 ## Your rights
 
 Because we hold no personal data on our servers, there is nothing for us to
 access, correct, export or delete on your behalf. Deleting the app removes
-everything the game has stored.
+everything the game has stored. Data held by Google in connection with
+advertising is subject to Google's own policy, linked above.
 
 If you believe we hold data about you, email **privacy@otfdp.com** and we will
 respond within 30 days.
 
 ### California residents (CCPA/CPRA)
 
-You have the right to know what personal information is collected, to request
-deletion, and to opt out of the sale or sharing of personal information. **We do
-not sell or share your personal information** as those terms are defined under
-the CCPA/CPRA, and we do not collect personal information.
+If you are a California resident, you may have additional rights under the
+California Consumer Privacy Act (CCPA) and the California Privacy Rights Act
+(CPRA), including:
+
+- The right to know what personal information we collect, use, and disclose
+- The right to delete your personal information
+- The right to opt out of the sale or sharing of your personal information. **We
+  do not sell or share your personal information** as those terms are defined
+  under CCPA/CPRA. Personalized advertising is off unless you affirmatively
+  allow it, and you may withdraw that permission at any time as described under
+  "Your choices about ads".
+- The right to non-discrimination for exercising your privacy rights
 
 ### EEA, UK and Switzerland (GDPR/UK GDPR)
 
-We do not process personal data through this app. Should that change, this
-policy will be updated before the change ships, and consent will be requested
-where required.
+Our legal bases are:
+
+- **Performance of a contract** — running the game and delivering what you buy
+- **Consent** — for personalized advertising, where required. Consent is
+  collected through Google's UMP form and can be withdrawn at any time via
+  **Settings → Privacy options**
+- **Legitimate interest** — serving non-personalized ads to fund a free game
 
 You retain the rights of access, rectification, erasure, restriction,
 portability and objection under Articles 15–21, and the right to lodge a
@@ -73,21 +112,25 @@ complaint with your local data protection authority. Requests to
 
 ## International data transfers
 
-OFT Games LLC operates from the United States. As the app transmits no data,
-nothing is transferred.
+OFT Games LLC operates from the United States. The game itself transmits no data.
+Advertising requests are handled by Google, which operates internationally and
+documents its own transfer safeguards in the policy linked above.
 
 ## Children
 
-The app is rated 4+ and is not directed at children under 13. We do not
-knowingly collect personal information from anyone of any age, because we do not
-collect personal information.
+The app is rated 4+, but it is not directed at children under the age of 13, and
+we do not knowingly collect personal information from anyone under 13.
+
+If we learn at any time that we have collected the information of a child under
+13, we will immediately destroy that information unless we are legally obligated
+to retain it.
 
 ## Security
 
-The app stores its data in your device's own protected storage. Because nothing
-is transmitted and no account exists, there is no server-side record to be
-exposed. No method of storage is completely secure, and we make no absolute
-guarantee.
+The app stores its data in your device's own protected storage. Because the game
+transmits nothing and no account exists, there is no server-side record of your
+play to be exposed. No method of storage is completely secure, and we make no
+absolute guarantee.
 
 ## Data retention
 
@@ -102,9 +145,8 @@ Purchases are recorded by Apple against your Apple ID and can be recovered with
 We will update this page when the app changes what it does, and revise the date
 above. Material changes will be surfaced in the app.
 
-Planned changes that will require an update **before they ship**: advertising
-(which introduces an advertising identifier and a third-party ad provider), and
-optional accounts for carrying progress between devices.
+A planned change that will require an update **before it ships**: optional
+accounts for carrying progress between devices.
 
 ## Governing law and disputes
 
