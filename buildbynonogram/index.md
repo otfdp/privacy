@@ -22,17 +22,18 @@ Everything the game remembers is stored locally:
 
 **Advertising.** The game is free and shows ads, which is how it is paid for.
 Our ad partner is **Google AdMob**, and AdMob may read your device's advertising
-identifier (IDFA on iOS) to deliver and measure ads. On iOS we are required to
-ask your permission first, via the App Tracking Transparency prompt. **You can
-decline; ads will still be shown, but will not be personalized, and the game
-plays exactly the same either way.**
+identifier (**IDFA** on iOS, **GAID** on Android) to deliver and measure ads. On
+iOS we are required to ask your permission first, via the App Tracking
+Transparency prompt. **You can decline; ads will still be shown, but will not be
+personalized, and the game plays exactly the same either way.**
 
 Ads are not enabled until you have finished the tutorial, so nothing is
 requested during your first minutes with the game.
 
-**Purchases.** Packs are sold through the Apple App Store, which handles payment
-entirely. We never see your payment details. The app receives only whether a
-purchase succeeded, in order to unlock what you bought.
+**Purchases.** Packs are sold through the **Apple App Store** on iOS and
+**Google Play** on Android, and the store handles payment entirely. We never see
+your payment details. The app receives only whether a purchase succeeded, in
+order to unlock what you bought.
 
 **We do not collect** names, email addresses, postal addresses, phone numbers,
 contacts, photos, microphone or camera access, or precise location.
@@ -54,6 +55,8 @@ We do not sell personal data.
 
 - **iOS** — decline the App Tracking Transparency prompt, or change it later in
   **iOS Settings → Privacy & Security → Tracking**. Ads become non-personalized.
+- **Android** — open **Settings → Privacy → Ads** to opt out of ad
+  personalization or delete your advertising ID entirely.
 - **EEA, UK and Switzerland** — we present Google's UMP consent form before ads
   begin. You may withdraw or change consent at any time via **Settings → Privacy
   options** inside the game.
@@ -65,8 +68,10 @@ of the game.
 
 - **Google AdMob** — advertising —
   [Privacy Policy](https://policies.google.com/privacy)
-- **Apple App Store** — distribution and purchases —
+- **Apple App Store** — distribution and purchases on iOS —
   [Privacy Policy](https://www.apple.com/legal/privacy/)
+- **Google Play** — distribution and purchases on Android —
+  [Privacy Policy](https://policies.google.com/privacy)
 
 That is the complete list.
 
@@ -118,8 +123,9 @@ documents its own transfer safeguards in the policy linked above.
 
 ## Children
 
-The app is rated 4+, but it is not directed at children under the age of 13, and
-we do not knowingly collect personal information from anyone under 13.
+The app is rated for general audiences (4+ on the App Store), but it is not
+directed at children under the age of 13, and we do not knowingly collect
+personal information from anyone under 13.
 
 If we learn at any time that we have collected the information of a child under
 13, we will immediately destroy that information unless we are legally obligated
