@@ -1,6 +1,6 @@
 # Build by Nonogram — Privacy Policy
 
-_Last updated: 15 August 2026_
+_Last updated: 16 August 2026_
 
 ## Who we are
 
@@ -9,16 +9,29 @@ questions go to **privacy@otfdp.com**.
 
 ## What we collect
 
-**We have no accounts and no servers.** Build by Nonogram stores your game on
-your device. There is no login, no profile, and nothing of yours held anywhere we
-control.
+**There is no sign-up and no login.** The first time you open the game it
+creates an **anonymous account** — a randomly generated identifier. It is not
+your name, email address, phone number, Apple ID or Google account, and it is
+not linked to any of them. It exists so that what you buy and what you earn
+survive a reinstall, and it is created automatically.
 
-Everything the game remembers is stored locally:
+Held against that anonymous account, on our backend:
 
-- **Game state** — puzzles solved and in progress, energy balance and refill
-  time, models built and painted, packs owned, lifetime progression
-- **Settings** — sound, haptics, reduced motion, and whether you have completed
-  the tutorial
+- **Energy** — your current balance, its maximum, and when it last refilled
+- **Progression** — the lifetime total of voxels you have solved
+- **Entitlements** — which packs you own, and the store receipt for each
+
+Kept only on your device:
+
+- **Puzzles in progress** — the marks you have made on unfinished nonograms
+- **Build progress** — how far you are toward your next model, how many you
+  have finished, and which models are in your trophy room
+- **The daily puzzle's** completion record, and how far through the tutorial
+  you are
+- **Settings** — sound, haptics, auto-pick, voxel size, pinch sensitivity,
+  reduced motion, high-contrast clues, and notification preference
+
+Deleting the app removes everything in that second list permanently.
 
 **Advertising.** The game is free and shows ads, which is how it is paid for.
 Our ad partner is **Google AdMob**, and AdMob may read your device's advertising
@@ -32,8 +45,10 @@ requested during your first minutes with the game.
 
 **Purchases.** Packs are sold through the **Apple App Store** on iOS and
 **Google Play** on Android, and the store handles payment entirely. We never see
-your payment details. The app receives only whether a purchase succeeded, in
-order to unlock what you bought.
+your card details or billing address. We receive confirmation that a purchase
+succeeded, the identifier of what was bought, and the store receipt — which we
+keep against your anonymous account, so that what you paid for can be unlocked
+and restored if you reinstall.
 
 **We do not collect** names, email addresses, postal addresses, phone numbers,
 contacts, photos, microphone or camera access, or precise location.
@@ -42,9 +57,10 @@ contacts, photos, microphone or camera access, or precise location.
 
 ## How we use what we collect
 
-Local game state is used only to run the game — to show your progress, restore
-an unfinished puzzle, and unlock the packs you own. None of it is transmitted to
-us.
+Game state is used only to run the game — to show your progress, restore an
+unfinished puzzle, meter the energy that paces play, and unlock the packs you
+own. What is kept on your device stays there; what reaches our backend is only
+what is listed above.
 
 The advertising identifier is used only by our ad partner, to select and measure
 ads. We do not receive it, and we do not combine it with anything.
@@ -66,6 +82,8 @@ of the game.
 
 ## Third parties
 
+- **Supabase** — backend storage for the anonymous account —
+  [Privacy Policy](https://supabase.com/privacy)
 - **Google AdMob** — advertising —
   [Privacy Policy](https://policies.google.com/privacy)
 - **Apple App Store** — distribution and purchases on iOS —
@@ -77,13 +95,16 @@ That is the complete list.
 
 ## Your rights
 
-Because we hold no personal data on our servers, there is nothing for us to
-access, correct, export or delete on your behalf. Deleting the app removes
-everything the game has stored. Data held by Google in connection with
-advertising is subject to Google's own policy, linked above.
+You may ask us to access, correct, export or delete what we hold. Email
+**privacy@otfdp.com** and we will respond within 30 days.
 
-If you believe we hold data about you, email **privacy@otfdp.com** and we will
-respond within 30 days.
+Because accounts are anonymous, we cannot find your record from your name or
+email address. Please include the **account ID** shown in the game under
+**Settings → Account**. Without it we may be unable to locate your data, and if
+you have already deleted the app the identifier is gone with it.
+
+Deleting the app removes everything held on your device. Data held by Google in
+connection with advertising is subject to Google's own policy, linked above.
 
 ### California residents (CCPA/CPRA)
 
@@ -117,7 +138,12 @@ complaint with your local data protection authority. Requests to
 
 ## International data transfers
 
-OFT Games LLC operates from the United States. The game itself transmits no data.
+OFT Games LLC operates from the United States, and our backend is hosted there
+(Supabase, `us-west-1`). If you play from outside the United States, the account
+data described above is transferred to and processed in the United States. Where
+required, those transfers rely on the European Commission's Standard Contractual
+Clauses as implemented by our providers.
+
 Advertising requests are handled by Google, which operates internationally and
 documents its own transfer safeguards in the policy linked above.
 
@@ -133,18 +159,25 @@ to retain it.
 
 ## Security
 
-The app stores its data in your device's own protected storage. Because the game
-transmits nothing and no account exists, there is no server-side record of your
-play to be exposed. No method of storage is completely secure, and we make no
-absolute guarantee.
+Traffic between the game and our backend is encrypted in transit using TLS, and
+server-side records are protected by access rules that let an account read only
+its own data. On-device data is held in your device's own protected storage. No
+method of storage or transmission is completely secure, and we make no absolute
+guarantee.
 
 ## Data retention
 
-Game data lives on your device for as long as the app is installed. Deleting the
-app deletes it permanently — we hold no copy and cannot restore it.
+On-device data lives on your device for as long as the app is installed.
+Deleting the app deletes it permanently — we hold no copy of it and cannot
+restore it.
 
-Purchases are recorded by Apple against your Apple ID and can be recovered with
-**Store → Restore Purchases**.
+The anonymous account, and the energy, progression and entitlements held against
+it, are kept while the account exists, so that a reinstall can restore what you
+bought. They are deleted on request, as described under "Your rights".
+
+Purchases are also recorded by Apple or Google against your store account, and
+can be recovered with **Store → Restore Purchases** even if our record of them
+is deleted.
 
 ## Changes to this policy
 
