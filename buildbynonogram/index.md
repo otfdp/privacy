@@ -4,7 +4,7 @@ _Last updated: 16 August 2026_
 
 ## Who we are
 
-Build by Nonogram is published by **OFT Games LLC** (Georgia, USA). Privacy
+Build by Nonogram is published by **OTF Productions LLC** (Georgia, USA). Privacy
 questions go to **privacy@otfdp.com**.
 
 ## What we collect
@@ -138,7 +138,7 @@ complaint with your local data protection authority. Requests to
 
 ## International data transfers
 
-OFT Games LLC operates from the United States, and our backend is hosted there
+OTF Productions LLC operates from the United States, and our backend is hosted there
 (Supabase, `us-west-1`). If you play from outside the United States, the account
 data described above is transferred to and processed in the United States. Where
 required, those transfers rely on the European Commission's Standard Contractual

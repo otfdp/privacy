@@ -1,6 +1,6 @@
 # Privacy Policies
 
-Privacy policies for apps published by **OFT Games LLC**, Georgia, USA.
+Privacy policies for apps published by **OTF Productions LLC**, Georgia, USA.
 
 - **[Build by Nonogram](buildbynonogram/)**
 
